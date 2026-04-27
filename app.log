@@ -36,3 +36,35 @@
 2026-04-27 11:40:08,951 - root - INFO - Database connection established successfully
 2026-04-27 11:40:09,042 - root - INFO - Loading completed successfully
 2026-04-27 11:40:09,042 - root - INFO - ETL process completed successfully
+2026-04-27 12:13:30,663 - extract - INFO - Application started
+2026-04-27 12:13:31,057 - extract - INFO - Data extracted for symbol: IBM
+2026-04-27 12:13:43,424 - extract - INFO - Data extracted for symbol: MSFT
+2026-04-27 12:13:55,427 - extract - INFO - Data extraction completed successfully
+2026-04-27 12:13:55,428 - root - INFO - Extraction completed successfully
+2026-04-27 12:13:55,435 - transform - INFO - Data transformed and written to CSV for symbol: IBM
+2026-04-27 12:13:55,439 - transform - INFO - Data transformed and written to CSV for symbol: MSFT
+2026-04-27 12:13:55,439 - root - INFO - Transformation completed successfully
+2026-04-27 12:13:55,440 - load - ERROR - An error occurred: No module named 'psycopg2'
+2026-04-27 12:13:55,440 - root - ERROR - An error occurred: No module named 'psycopg2'
+2026-04-27 12:14:36,042 - extract - INFO - Application started
+2026-04-27 12:14:36,575 - extract - INFO - Data extracted for symbol: IBM
+2026-04-27 12:14:48,943 - extract - INFO - Data extracted for symbol: MSFT
+2026-04-27 12:15:00,946 - extract - INFO - Data extraction completed successfully
+2026-04-27 12:15:00,947 - root - INFO - Extraction completed successfully
+2026-04-27 12:15:00,955 - transform - INFO - Data transformed and written to CSV for symbol: IBM
+2026-04-27 12:15:00,958 - transform - INFO - Data transformed and written to CSV for symbol: MSFT
+2026-04-27 12:15:00,959 - root - INFO - Transformation completed successfully
+2026-04-27 12:15:02,693 - root - INFO - Database connection established successfully
+2026-04-27 12:15:02,781 - root - INFO - Loading completed successfully
+2026-04-27 12:15:02,781 - root - INFO - ETL process completed successfully
+2026-04-27 12:16:29,858 - extract - INFO - Application started
+2026-04-27 12:16:30,231 - extract - INFO - Data extracted for symbol: IBM
+2026-04-27 12:16:42,644 - extract - INFO - Data extracted for symbol: MSFT
+2026-04-27 12:16:54,647 - extract - INFO - Data extraction completed successfully
+2026-04-27 12:16:54,648 - root - INFO - Extraction completed successfully
+2026-04-27 12:16:54,656 - transform - INFO - Data transformed and written to CSV for symbol: IBM
+2026-04-27 12:16:54,660 - transform - INFO - Data transformed and written to CSV for symbol: MSFT
+2026-04-27 12:16:54,660 - root - INFO - Transformation completed successfully
+2026-04-27 12:16:55,521 - root - INFO - Database connection established successfully
+2026-04-27 12:16:55,621 - root - INFO - Loading completed successfully
+2026-04-27 12:16:55,621 - root - INFO - ETL process completed successfully

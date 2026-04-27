@@ -1,4 +1,6 @@
 
+import sys
+
 from sqlalchemy import MetaData, Table, create_engine, insert
 import pandas as pd
 import logging
@@ -9,10 +11,16 @@ from sqlalchemy.dialects.postgresql import insert
 load_dotenv()
 db_user = os.getenv('connection_string')
 
-logging.basicConfig(level=logging.INFO, filename='app.log', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', 
+                    handlers = [
+                        logging.FileHandler('app.log'),
+                        logging.StreamHandler(sys.stdout)
+                    ]
+)
 logger = logging.getLogger(__name__)
 
 def loading():
+    
     try:
         engine = create_engine(db_user)
         metadata = MetaData()

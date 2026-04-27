@@ -1,0 +1,9 @@
+.gitingore
+settings.json
+.venv
+__pycache__
+.vscode
+*.log
+.env
+bronze.json
+silver.csv

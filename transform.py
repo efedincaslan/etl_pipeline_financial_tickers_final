@@ -1,10 +1,16 @@
 import csv
 import logging
+import sys
 import pandas as pd
 import json
 from extract import extraction
 
-logging.basicConfig(level=logging.INFO, filename='app.log', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', 
+                    handlers = [
+                        logging.FileHandler('app.log'),
+                        logging.StreamHandler(sys.stdout)
+                    ]
+)
 logger = logging.getLogger(__name__)
 
 
