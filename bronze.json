@@ -3,11 +3,18 @@
         "Meta Data": {
             "1. Information": "Daily Prices (open, high, low, close) and Volumes",
             "2. Symbol": "IBM",
-            "3. Last Refreshed": "2026-04-24",
+            "3. Last Refreshed": "2026-04-27",
             "4. Output Size": "Compact",
             "5. Time Zone": "US/Eastern"
         },
         "Time Series (Daily)": {
+            "2026-04-27": {
+                "1. open": "229.9500",
+                "2. high": "231.3200",
+                "3. low": "227.1200",
+                "4. close": "228.0500",
+                "5. volume": "8060665"
+            },
             "2026-04-24": {
                 "1. open": "231.9300",
                 "2. high": "232.7999",
@@ -700,13 +707,6 @@
                 "3. low": "301.5700",
                 "4. close": "301.7800",
                 "5. volume": "4261100"
-            },
-            "2025-12-01": {
-                "1. open": "306.5050",
-                "2. high": "307.1200",
-                "3. low": "302.8000",
-                "4. close": "305.6700",
-                "5. volume": "3166555"
             }
         }
     },
@@ -714,11 +714,18 @@
         "Meta Data": {
             "1. Information": "Daily Prices (open, high, low, close) and Volumes",
             "2. Symbol": "MSFT",
-            "3. Last Refreshed": "2026-04-24",
+            "3. Last Refreshed": "2026-04-27",
             "4. Output Size": "Compact",
             "5. Time Zone": "US/Eastern"
         },
         "Time Series (Daily)": {
+            "2026-04-27": {
+                "1. open": "422.3750",
+                "2. high": "427.1100",
+                "3. low": "417.0701",
+                "4. close": "424.8200",
+                "5. volume": "30867303"
+            },
             "2026-04-24": {
                 "1. open": "416.9700",
                 "2. high": "424.9500",
@@ -1411,13 +1418,6 @@
                 "3. low": "486.3200",
                 "4. close": "490.0000",
                 "5. volume": "19562722"
-            },
-            "2025-12-01": {
-                "1. open": "488.4350",
-                "2. high": "489.8599",
-                "3. low": "484.6475",
-                "4. close": "486.7400",
-                "5. volume": "23963993"
             }
         }
     }

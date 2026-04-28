@@ -68,3 +68,95 @@
 2026-04-27 12:16:55,521 - root - INFO - Database connection established successfully
 2026-04-27 12:16:55,621 - root - INFO - Loading completed successfully
 2026-04-27 12:16:55,621 - root - INFO - ETL process completed successfully
+2026-04-28 10:27:19,238 - extract - INFO - Application started
+2026-04-28 10:27:19,678 - extract - INFO - Data extracted for symbol: IBM
+2026-04-28 10:27:32,043 - extract - INFO - Data extracted for symbol: MSFT
+2026-04-28 10:27:44,046 - extract - INFO - Data extraction completed successfully
+2026-04-28 10:27:44,047 - root - INFO - Extraction completed successfully
+2026-04-28 10:27:44,066 - transform - INFO - Data transformed and written to CSV for symbol: IBM
+2026-04-28 10:27:44,070 - transform - INFO - Data transformed and written to CSV for symbol: MSFT
+2026-04-28 10:27:44,071 - root - INFO - Transformation completed successfully
+2026-04-28 10:27:45,176 - root - INFO - Database connection established successfully
+2026-04-28 10:27:45,295 - root - INFO - Loading completed successfully
+2026-04-28 10:27:45,295 - root - INFO - ETL process completed successfully
+2026-04-28 11:20:51,660 - extract - INFO - Application started
+2026-04-28 11:20:52,093 - extract - INFO - Data extracted for symbol: IBM
+2026-04-28 11:21:04,474 - extract - INFO - Data extracted for symbol: MSFT
+2026-04-28 11:21:16,476 - extract - INFO - Data extraction completed successfully
+2026-04-28 11:21:16,477 - root - INFO - Extraction completed successfully
+2026-04-28 11:21:16,486 - transform - INFO - Data transformed and written to CSV for symbol: IBM
+2026-04-28 11:21:16,496 - transform - INFO - Data transformed and written to CSV for symbol: MSFT
+2026-04-28 11:21:16,496 - root - INFO - Transformation completed successfully
+2026-04-28 11:21:17,367 - root - INFO - Database connection established successfully
+2026-04-28 11:21:17,455 - root - INFO - Loading completed successfully
+2026-04-28 11:21:17,455 - root - ERROR - An error occurred: 'function' object has no attribute 'execute'
+2026-04-28 11:23:47,985 - extract - INFO - Application started
+2026-04-28 11:23:48,364 - extract - INFO - Data extracted for symbol: IBM
+2026-04-28 11:24:00,767 - extract - INFO - Data extracted for symbol: MSFT
+2026-04-28 11:24:12,770 - extract - INFO - Data extraction completed successfully
+2026-04-28 11:24:12,771 - root - INFO - Extraction completed successfully
+2026-04-28 11:24:12,779 - transform - INFO - Data transformed and written to CSV for symbol: IBM
+2026-04-28 11:24:12,783 - transform - INFO - Data transformed and written to CSV for symbol: MSFT
+2026-04-28 11:24:12,784 - root - INFO - Transformation completed successfully
+2026-04-28 11:24:13,598 - root - INFO - Database connection established successfully
+2026-04-28 11:24:13,679 - root - INFO - Loading completed successfully
+2026-04-28 11:24:13,679 - root - ERROR - An error occurred: module 'sqlalchemy.engine' has no attribute 'connect'
+2026-04-28 11:37:00,060 - extract - INFO - Application started
+2026-04-28 11:37:00,527 - extract - INFO - Data extracted for symbol: IBM
+2026-04-28 11:37:12,923 - extract - INFO - Data extracted for symbol: MSFT
+2026-04-28 11:37:24,925 - extract - INFO - Data extraction completed successfully
+2026-04-28 11:37:24,926 - root - INFO - Extraction completed successfully
+2026-04-28 11:37:24,934 - transform - INFO - Data transformed and written to CSV for symbol: IBM
+2026-04-28 11:37:24,938 - transform - INFO - Data transformed and written to CSV for symbol: MSFT
+2026-04-28 11:37:24,939 - root - INFO - Transformation completed successfully
+2026-04-28 11:37:25,870 - root - INFO - Database connection established successfully
+2026-04-28 11:37:25,966 - root - INFO - Loading completed successfully
+2026-04-28 11:37:26,014 - root - INFO - (210,)
+2026-04-28 11:37:26,041 - root - INFO - ETL process completed successfully
+2026-04-28 11:40:10,134 - extract - INFO - Application started
+2026-04-28 11:40:10,526 - extract - INFO - Data extracted for symbol: IBM
+2026-04-28 11:40:22,921 - extract - INFO - Data extracted for symbol: MSFT
+2026-04-28 11:40:34,923 - extract - INFO - Data extraction completed successfully
+2026-04-28 11:40:34,925 - root - INFO - Extraction completed successfully
+2026-04-28 11:40:34,934 - transform - INFO - Data transformed and written to CSV for symbol: IBM
+2026-04-28 11:40:34,941 - transform - INFO - Data transformed and written to CSV for symbol: MSFT
+2026-04-28 11:40:34,942 - root - INFO - Transformation completed successfully
+2026-04-28 11:40:36,108 - root - INFO - Database connection established successfully
+2026-04-28 11:40:36,248 - root - INFO - Loading completed successfully
+2026-04-28 11:40:36,367 - root - INFO - (0,)
+2026-04-28 11:40:36,386 - root - INFO - ETL process completed successfully
+2026-04-28 11:45:20,979 - extract - INFO - Application started
+2026-04-28 11:45:21,419 - extract - INFO - Data extracted for symbol: IBM
+2026-04-28 11:45:33,815 - extract - INFO - Data extracted for symbol: MSFT
+2026-04-28 11:45:45,818 - extract - INFO - Data extraction completed successfully
+2026-04-28 11:45:45,820 - root - INFO - Extraction completed successfully
+2026-04-28 11:45:45,828 - transform - INFO - Data transformed and written to CSV for symbol: IBM
+2026-04-28 11:45:45,837 - transform - INFO - Data transformed and written to CSV for symbol: MSFT
+2026-04-28 11:45:45,837 - root - INFO - Transformation completed successfully
+2026-04-28 11:45:46,666 - root - INFO - Database connection established successfully
+2026-04-28 11:45:46,764 - root - INFO - Loading completed successfully
+2026-04-28 11:45:46,818 - root - INFO - ('IBM', 105)
+2026-04-28 11:45:46,819 - root - INFO - ('MSFT', 105)
+2026-04-28 11:45:46,834 - root - INFO - ETL process completed successfully
+2026-04-28 11:53:33,248 - extract - INFO - Application started
+2026-04-28 11:53:33,674 - extract - INFO - Data extracted for symbol: IBM
+2026-04-28 11:53:46,084 - extract - INFO - Data extracted for symbol: MSFT
+2026-04-28 11:53:58,087 - extract - INFO - Data extraction completed successfully
+2026-04-28 11:53:58,088 - root - INFO - Extraction completed successfully
+2026-04-28 11:53:58,097 - transform - INFO - Data transformed and written to CSV for symbol: IBM
+2026-04-28 11:53:58,102 - transform - INFO - Data transformed and written to CSV for symbol: MSFT
+2026-04-28 11:53:58,102 - root - INFO - Transformation completed successfully
+2026-04-28 11:53:58,823 - root - INFO - Database connection established successfully
+2026-04-28 11:53:58,922 - root - INFO - Loading completed successfully
+2026-04-28 11:53:58,990 - root - INFO - ETL process completed successfully
+2026-04-28 12:03:39,621 - extract - INFO - Application started
+2026-04-28 12:03:40,076 - extract - INFO - Data extracted for symbol: IBM
+2026-04-28 12:03:52,482 - extract - INFO - Data extracted for symbol: MSFT
+2026-04-28 12:04:04,483 - extract - INFO - Data extraction completed successfully
+2026-04-28 12:04:04,485 - root - INFO - Extraction completed successfully
+2026-04-28 12:04:04,494 - transform - INFO - Data transformed and written to CSV for symbol: IBM
+2026-04-28 12:04:04,499 - transform - INFO - Data transformed and written to CSV for symbol: MSFT
+2026-04-28 12:04:04,499 - root - INFO - Transformation completed successfully
+2026-04-28 12:04:05,426 - root - INFO - Database connection established successfully
+2026-04-28 12:04:05,521 - root - INFO - Loading completed successfully
+2026-04-28 12:04:05,586 - root - INFO - ETL process completed successfully

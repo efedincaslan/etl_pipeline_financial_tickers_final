@@ -1,15 +1,14 @@
 
 import sys
-
 from sqlalchemy import MetaData, Table, create_engine, insert
 import pandas as pd
 import logging
 import os
 from dotenv import load_dotenv
 from sqlalchemy.dialects.postgresql import insert
+from database import engine
 
-load_dotenv()
-db_user = os.getenv('connection_string')
+
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', 
                     handlers = [
@@ -22,7 +21,6 @@ logger = logging.getLogger(__name__)
 def loading():
     
     try:
-        engine = create_engine(db_user)
         metadata = MetaData()
         my_table = Table('market_statistics', metadata, autoload_with=engine)
         try:
