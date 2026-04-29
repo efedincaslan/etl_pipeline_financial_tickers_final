@@ -1,1 +1,1 @@
-symbols = ['IBM', 'MSFT']
+symbols = ['IBM', 'MSFT', 'AAPL', 'GOOGL', 'AMZN', 'META', 'TSLA', 'NVDA', 'JPM', 'V', 'NVDA', 'LLY', 'BLK', 'TSLA', 'MA', 'UNH', 'HD', 'PG', 'DIS', 'BAC', 'VZ']

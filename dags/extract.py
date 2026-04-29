@@ -27,9 +27,15 @@ def extraction():
             try:
                 url = f'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={symbol}&apikey={apikey}'
                 r = requests.get(url)
-                data[symbol] = r.json()
-                logger.info(f"Data extracted for symbol: {symbol}")
+                json_response = r.json()
                 time.sleep(12)  # Alpha Vantage allows 5 API calls per minute, so we wait 12 seconds between calls
+                if "Time Series (Daily)" not in json_response:
+                    logger.warning(f"API response for symbol {symbol} does not contain expected data. Response: {json_response}")
+                    continue
+                data[symbol] = json_response
+
+                logger.info(f"Data extracted for symbol: {symbol}")
+                
             except Exception as e:
                 logger.error(f"An error occurred while extracting data for symbol {symbol}: {e}")
         
