@@ -3,3 +3,12 @@ settings.json
 .venv
 __pycache__
 .vscode
+dags/.env
+logs/
+config/
+app.log
+silver.jsv
+bronze.json
+**/.env
+**/settings.json
+**/.venv
