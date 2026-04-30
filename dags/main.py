@@ -1,7 +1,5 @@
 import sys
-from unittest import result
-from requests import session
-from sqlalchemy import select, text, engine
+from sqlalchemy import text
 from extract import extraction
 from transform import transformation
 from load import loading

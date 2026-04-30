@@ -7,3 +7,6 @@ __pycache__
 .env
 bronze.json
 silver.csv
+logs/
+config/
+data/
